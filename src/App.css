@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+}
+
+body {
+  font-family: Roboto;
+  background-color: #0079BF;
+  height: 100vh;
+}
+
+.allTasks {
+  display: flex;
+  justify-content: space-around;
+  height: calc(100% - 110px);
+  padding: 20px 0;
+  align-items: flex-start;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default
+}

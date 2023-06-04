@@ -1,0 +1,21 @@
+
+.block {
+    background-color: white;
+    border-radius: 5px;
+    padding: 22px 28px;
+    position: relative;
+    height: calc(100% - 150px);
+    margin: 20px;
+}
+
+.close {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 17px;
+    right: 23px;
+}
+
+.button {
+   padding: 5px 10px;
+}
